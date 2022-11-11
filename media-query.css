@@ -1,0 +1,16 @@
+@media (max-width: 946px) {
+  main {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+  }
+  .one_section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .child_section {
+    flex-direction: column-reverse;
+  }
+}
